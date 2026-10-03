@@ -1,0 +1,32 @@
+[
+  {
+    "query": "Which component consumes BatteryTemperature?",
+    "passed": true,
+    "evidence_count": 1,
+    "answer": "ThermalController consumed BatteryTemperature. Source: sample_autosar_hld.pdf, Page 4, Section 7 - Signals and Data Flow."
+  },
+  {
+    "query": "Which components depend on BatteryMonitor?",
+    "passed": true,
+    "evidence_count": 2,
+    "answer": "The components that depend on BatteryMonitor are: ThermalController, Dashboard."
+  },
+  {
+    "query": "What interface connects BatteryMonitor and Dashboard?",
+    "passed": true,
+    "evidence_count": 1,
+    "answer": "The interface is BatteryStatusInterface."
+  },
+  {
+    "query": "Which component provides BatteryStatus?",
+    "passed": true,
+    "evidence_count": 0,
+    "answer": "The provided evidence is insufficient to answer this question."
+  },
+  {
+    "query": "What is the functional flow from battery measurement to cooling request?",
+    "passed": true,
+    "evidence_count": 4,
+    "answer": "The functional flow is:\nStep 1: BatteryMonitor reads battery voltage and temperature.\nStep 2: BatteryMonitor calculates BatteryStatus.\nStep 3: BatteryMonitor provides BatteryTemperature to ThermalController.\nStep 4: ThermalController evaluates the temperature and generates CoolingRequest."
+  }
+]

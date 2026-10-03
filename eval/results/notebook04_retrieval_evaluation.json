@@ -1,0 +1,17 @@
+{
+    "notebook": "04_retrieval_eval_prompts",
+    "evaluation_questions": 5,
+    "query_types_tested": 4,
+    "top_k_tested": [
+        1,
+        3,
+        5,
+        10
+    ],
+    "retrieval_accuracy": 100.0,
+    "mean_precision": 92.0,
+    "mean_recall": 100.0,
+    "mean_f1": 95.56,
+    "citation_coverage": 100.0,
+    "unsupported_query_handled": true
+}

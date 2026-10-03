@@ -1,0 +1,437 @@
+{
+  "summary": {
+    "components": {
+      "added": 1,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 3,
+      "old_total": 3,
+      "new_total": 4
+    },
+    "ports": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 7,
+      "old_total": 7,
+      "new_total": 7
+    },
+    "interfaces": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 3,
+      "old_total": 3,
+      "new_total": 3
+    },
+    "data_flows": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 5,
+      "old_total": 5,
+      "new_total": 5
+    },
+    "dependencies": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 3,
+      "old_total": 3,
+      "new_total": 3
+    },
+    "functional_flows": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 6,
+      "old_total": 6,
+      "new_total": 6
+    },
+    "architecture_relationships": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 3,
+      "old_total": 3,
+      "new_total": 3
+    },
+    "overall": {
+      "added": 1,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 30
+    }
+  },
+  "changes": {
+    "components": {
+      "added": [
+        {
+          "name": "ThermalMonitor",
+          "type": "Software Component",
+          "role": "Thermal monitoring",
+          "document": "sample_autosar_hld_v2.pdf",
+          "page": 2,
+          "section_number": "3",
+          "section_title": "Software Components"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "unchanged": [
+        {
+          "name": "BatteryMonitor",
+          "type": "SoftwareComponent",
+          "document": "sample_autosar_hld.pdf",
+          "page": 2,
+          "section_number": "3",
+          "section_title": "Software Components",
+          "role": "Battery measurement and status",
+          "inputs": [
+            "BatteryVoltage",
+            "BatteryTemperature"
+          ],
+          "outputs": [
+            "BatteryStatus"
+          ]
+        },
+        {
+          "name": "Dashboard",
+          "type": "SoftwareComponent",
+          "document": "sample_autosar_hld.pdf",
+          "page": 2,
+          "section_number": "3",
+          "section_title": "Software Components",
+          "role": "Driver display",
+          "inputs": [
+            "BatteryStatus"
+          ],
+          "outputs": [
+            "DisplayUpdate"
+          ]
+        },
+        {
+          "name": "ThermalController",
+          "type": "SoftwareComponent",
+          "document": "sample_autosar_hld.pdf",
+          "page": 2,
+          "section_number": "3",
+          "section_title": "Software Components",
+          "role": "Thermal management",
+          "inputs": [
+            "BatteryTemperature"
+          ],
+          "outputs": [
+            "CoolingRequest"
+          ]
+        }
+      ]
+    },
+    "ports": {
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "unchanged": [
+        {
+          "name": "P_BatteryStatus",
+          "component": "BatteryMonitor",
+          "direction": "Provider",
+          "description": "calculated battery status.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 3,
+          "section_number": "5",
+          "section_title": "Ports and Interfaces",
+          "subsection_number": "5.1"
+        },
+        {
+          "name": "P_BatteryTemperature",
+          "component": "BatteryMonitor",
+          "direction": "Provider",
+          "description": "battery temperature information.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 3,
+          "section_number": "5",
+          "section_title": "Ports and Interfaces",
+          "subsection_number": "5.1"
+        },
+        {
+          "name": "P_BatteryVoltage",
+          "component": "BatteryMonitor",
+          "direction": "Provider",
+          "description": "battery voltage information.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 3,
+          "section_number": "5",
+          "section_title": "Ports and Interfaces",
+          "subsection_number": "5.1"
+        },
+        {
+          "name": "P_CoolingRequest",
+          "component": "ThermalController",
+          "direction": "Provider",
+          "description": "the requested cooling state.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 3,
+          "section_number": "5",
+          "section_title": "Ports and Interfaces",
+          "subsection_number": "5.2"
+        },
+        {
+          "name": "P_DisplayUpdate",
+          "component": "Dashboard",
+          "direction": "Provider",
+          "description": "the updated display information.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 3,
+          "section_number": "5",
+          "section_title": "Ports and Interfaces",
+          "subsection_number": "5.3"
+        },
+        {
+          "name": "R_BatteryStatus",
+          "component": "Dashboard",
+          "direction": "Receiver",
+          "description": "BatteryStatus.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 3,
+          "section_number": "5",
+          "section_title": "Ports and Interfaces",
+          "subsection_number": "5.3"
+        },
+        {
+          "name": "R_BatteryTemperature",
+          "component": "ThermalController",
+          "direction": "Receiver",
+          "description": "battery temperature.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 3,
+          "section_number": "5",
+          "section_title": "Ports and Interfaces",
+          "subsection_number": "5.2"
+        }
+      ]
+    },
+    "interfaces": {
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "unchanged": [
+        {
+          "name": "BatteryMeasurementInterface",
+          "type": "Interface",
+          "data_elements": [
+            "BatteryVoltage",
+            "BatteryTemperature"
+          ],
+          "provider": "BatteryMonitor",
+          "consumer": "ThermalController",
+          "document": "sample_autosar_hld.pdf",
+          "page": 3,
+          "section_number": "6",
+          "section_title": "Interface Definitions"
+        },
+        {
+          "name": "BatteryStatusInterface",
+          "type": "Interface",
+          "data_elements": [
+            "BatteryStatus"
+          ],
+          "provider": "BatteryMonitor",
+          "consumer": "Dashboard",
+          "document": "sample_autosar_hld.pdf",
+          "page": 3,
+          "section_number": "6",
+          "section_title": "Interface Definitions"
+        },
+        {
+          "name": "CoolingRequestInterface",
+          "type": "Interface",
+          "data_elements": [
+            "CoolingRequest"
+          ],
+          "provider": "ThermalController",
+          "consumer": "CoolingSystem",
+          "document": "sample_autosar_hld.pdf",
+          "page": 3,
+          "section_number": "6",
+          "section_title": "Interface Definitions"
+        }
+      ]
+    },
+    "data_flows": {
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "unchanged": [
+        {
+          "signal": "BatteryStatus",
+          "relationship": "consumed",
+          "component": "Dashboard",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "7",
+          "section_title": "Signals and Data Flow"
+        },
+        {
+          "signal": "BatteryTemperature",
+          "relationship": "consumed",
+          "component": "ThermalController",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "7",
+          "section_title": "Signals and Data Flow"
+        },
+        {
+          "signal": "BatteryTemperature",
+          "relationship": "produced",
+          "component": "BatteryMonitor",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "7",
+          "section_title": "Signals and Data Flow"
+        },
+        {
+          "signal": "BatteryVoltage",
+          "relationship": "produced",
+          "component": "BatteryMonitor",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "7",
+          "section_title": "Signals and Data Flow"
+        },
+        {
+          "signal": "CoolingRequest",
+          "relationship": "generated",
+          "component": "ThermalController",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "7",
+          "section_title": "Signals and Data Flow"
+        }
+      ]
+    },
+    "dependencies": {
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "unchanged": [
+        {
+          "dependent_component": "CoolingSystem",
+          "dependency_component": "ThermalController",
+          "data_element": "CoolingRequest",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "9",
+          "section_title": "Dependency Mapping"
+        },
+        {
+          "dependent_component": "Dashboard",
+          "dependency_component": "BatteryMonitor",
+          "data_element": "BatteryStatus",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "9",
+          "section_title": "Dependency Mapping"
+        },
+        {
+          "dependent_component": "ThermalController",
+          "dependency_component": "BatteryMonitor",
+          "data_element": "BatteryTemperature",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "9",
+          "section_title": "Dependency Mapping"
+        }
+      ]
+    },
+    "functional_flows": {
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "unchanged": [
+        {
+          "step": 1,
+          "description": "BatteryMonitor reads battery voltage and temperature.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "8",
+          "section_title": "Functional Flow"
+        },
+        {
+          "step": 2,
+          "description": "BatteryMonitor calculates BatteryStatus.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "8",
+          "section_title": "Functional Flow"
+        },
+        {
+          "step": 3,
+          "description": "BatteryMonitor provides BatteryTemperature to ThermalController.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "8",
+          "section_title": "Functional Flow"
+        },
+        {
+          "step": 4,
+          "description": "ThermalController evaluates the temperature and generates CoolingRequest.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "8",
+          "section_title": "Functional Flow"
+        },
+        {
+          "step": 5,
+          "description": "BatteryMonitor provides BatteryStatus to Dashboard.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "8",
+          "section_title": "Functional Flow"
+        },
+        {
+          "step": 6,
+          "description": "Dashboard updates the driver display.",
+          "document": "sample_autosar_hld.pdf",
+          "page": 4,
+          "section_number": "8",
+          "section_title": "Functional Flow"
+        }
+      ]
+    },
+    "architecture_relationships": {
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "unchanged": [
+        {
+          "source_component": "BatteryMonitor",
+          "target_component": "Dashboard",
+          "interface": "BatteryStatusInterface",
+          "document": "sample_autosar_hld.pdf",
+          "page": 5,
+          "section_number": "10",
+          "section_title": "Architecture Relationships"
+        },
+        {
+          "source_component": "BatteryMonitor",
+          "target_component": "ThermalController",
+          "interface": "BatteryMeasurementInterface",
+          "document": "sample_autosar_hld.pdf",
+          "page": 5,
+          "section_number": "10",
+          "section_title": "Architecture Relationships"
+        },
+        {
+          "source_component": "ThermalController",
+          "target_component": "CoolingSystem",
+          "interface": "CoolingRequestInterface",
+          "document": "sample_autosar_hld.pdf",
+          "page": 5,
+          "section_number": "10",
+          "section_title": "Architecture Relationships"
+        }
+      ]
+    }
+  }
+}

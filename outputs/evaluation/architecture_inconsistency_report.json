@@ -1,0 +1,40 @@
+[
+  {
+    "issue_type": "Missing data-flow relationship",
+    "severity": "Potential inconsistency",
+    "component": "BatteryMonitor",
+    "signal": "BatteryStatus",
+    "description": "BatteryMonitor lists BatteryStatus as an output, but no explicit produced/generated data-flow relationship was extracted.",
+    "component_source": {
+      "document": "sample_autosar_hld.pdf",
+      "page": 2,
+      "section_number": "3",
+      "section_title": "Software Components"
+    },
+    "data_flow_checked": {
+      "document": "sample_autosar_hld.pdf",
+      "page": 4,
+      "section_number": "7",
+      "section_title": "Signals and Data Flow"
+    }
+  },
+  {
+    "issue_type": "Missing data-flow relationship",
+    "severity": "Potential inconsistency",
+    "component": "Dashboard",
+    "signal": "DisplayUpdate",
+    "description": "Dashboard lists DisplayUpdate as an output, but no explicit produced/generated data-flow relationship was extracted.",
+    "component_source": {
+      "document": "sample_autosar_hld.pdf",
+      "page": 2,
+      "section_number": "3",
+      "section_title": "Software Components"
+    },
+    "data_flow_checked": {
+      "document": "sample_autosar_hld.pdf",
+      "page": 4,
+      "section_number": "7",
+      "section_title": "Signals and Data Flow"
+    }
+  }
+]

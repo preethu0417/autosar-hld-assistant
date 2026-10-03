@@ -1,0 +1,28 @@
+# Core data processing
+numpy==2.5.3
+pandas==3.0.6
+
+# PDF processing
+PyMuPDF==1.28.2
+
+# Embeddings and vector search
+fastembed==0.8.1
+faiss-cpu==1.15.1
+
+# Web application
+streamlit==1.64.0
+
+# REST API
+fastapi==0.142.2
+uvicorn==0.54.0
+python-multipart==0.0.32
+
+# LLM integration
+openai==3.23.0
+
+# Jupyter / notebooks
+jupyterlab
+ipykernel
+
+# Environment variables
+python-dotenv==1.2.4

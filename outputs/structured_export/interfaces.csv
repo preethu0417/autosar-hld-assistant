@@ -1,0 +1,4 @@
+name,provider,consumer,data_elements
+BatteryMeasurementInterface,BatteryMonitor,ThermalController,"BatteryVoltage, BatteryTemperature"
+BatteryStatusInterface,BatteryMonitor,Dashboard,BatteryStatus
+CoolingRequestInterface,ThermalController,CoolingSystem,CoolingRequest

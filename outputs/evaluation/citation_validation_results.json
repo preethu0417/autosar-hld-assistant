@@ -1,0 +1,32 @@
+[
+  {
+    "query": "Which component consumes BatteryTemperature?",
+    "valid_citations": 1,
+    "total_evidence": 1,
+    "citation_valid": true
+  },
+  {
+    "query": "Which components depend on BatteryMonitor?",
+    "valid_citations": 2,
+    "total_evidence": 2,
+    "citation_valid": true
+  },
+  {
+    "query": "What interface connects BatteryMonitor and Dashboard?",
+    "valid_citations": 1,
+    "total_evidence": 1,
+    "citation_valid": true
+  },
+  {
+    "query": "Which component provides BatteryStatus?",
+    "valid_citations": 0,
+    "total_evidence": 0,
+    "citation_valid": true
+  },
+  {
+    "query": "What is the functional flow from battery measurement to cooling request?",
+    "valid_citations": 4,
+    "total_evidence": 4,
+    "citation_valid": true
+  }
+]

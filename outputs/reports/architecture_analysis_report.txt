@@ -1,0 +1,25 @@
+AUTOSAR HLD ARCHITECTURE ANALYSIS REPORT
+============================================================
+
+Document: sample_autosar_hld.pdf
+
+ARCHITECTURE INVENTORY
+------------------------------------------------------------
+components: 3
+ports: 7
+interfaces: 3
+data_flows: 5
+functional_flows: 6
+dependencies: 3
+architecture_relationships: 3
+
+CONSISTENCY CHECK
+------------------------------------------------------------
+Issues detected: 2
+- Consumer 'CoolingSystem' for interface 'CoolingRequestInterface' is outside the current component inventory.
+- Dependency references unknown component 'CoolingSystem'.
+
+RAG EVALUATION
+------------------------------------------------------------
+Answer accuracy: 100.00%
+Average citation coverage: 100.00%

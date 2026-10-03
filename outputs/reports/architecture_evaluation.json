@@ -1,0 +1,96 @@
+{
+  "entity_metrics": {
+    "components": {
+      "entity_type": "components",
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "predicted_count": 3,
+      "reference_count": 3
+    },
+    "ports": {
+      "entity_type": "ports",
+      "true_positive": 7,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "predicted_count": 7,
+      "reference_count": 7
+    },
+    "interfaces": {
+      "entity_type": "interfaces",
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "predicted_count": 3,
+      "reference_count": 3
+    },
+    "data_flows": {
+      "entity_type": "data_flows",
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "predicted_count": 5,
+      "reference_count": 5
+    },
+    "dependencies": {
+      "entity_type": "dependencies",
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "predicted_count": 3,
+      "reference_count": 3
+    },
+    "functional_flows": {
+      "entity_type": "functional_flows",
+      "true_positive": 6,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "predicted_count": 6,
+      "reference_count": 6
+    },
+    "architecture_relationships": {
+      "entity_type": "architecture_relationships",
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "predicted_count": 3,
+      "reference_count": 3
+    }
+  },
+  "macro_metrics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "overall_completeness": 1.0,
+  "consistency": {
+    "status": "PASS",
+    "external_entities": [],
+    "known_external_entities": [
+      "coolingsystem"
+    ],
+    "missing_internal_entities": [],
+    "total_issues": 0
+  }
+}

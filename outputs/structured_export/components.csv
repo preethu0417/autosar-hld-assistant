@@ -1,0 +1,4 @@
+name,type,role,inputs,outputs
+BatteryMonitor,SoftwareComponent,Battery measurement and status,"BatteryVoltage, BatteryTemperature",BatteryStatus
+ThermalController,SoftwareComponent,Thermal management,BatteryTemperature,CoolingRequest
+Dashboard,SoftwareComponent,Driver display,BatteryStatus,DisplayUpdate
