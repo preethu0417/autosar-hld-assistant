@@ -1,0 +1,9 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.git/
+.ipynb_checkpoints/
+notebooks/
+.env
+eval/results/

@@ -1,0 +1,26 @@
+﻿
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: autosar-hld-api
+    platform: linux/amd64
+    command: python -m uvicorn api.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: autosar-hld-streamlit
+    platform: linux/amd64
+    command: python -m streamlit run app/streamlit_app.py --server.address 0.0.0.0 --server.port 8501
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+    restart: unless-stopped
+
