@@ -1,0 +1,96 @@
+{
+    "document": "sample_autosar_hld.pdf",
+    "eda_summary": {
+        "document": "sample_autosar_hld.pdf",
+        "page_count": 5,
+        "total_architecture_records": 30,
+        "entity_categories": 7,
+        "pages_with_text": 5,
+        "average_characters_per_page": 941.8,
+        "minimum_characters_per_page": 829,
+        "maximum_characters_per_page": 1177,
+        "pages_flagged_for_ocr_review": 0
+    },
+    "reports": {
+        "data_quality": {
+            "document": "sample_autosar_hld.pdf",
+            "architecture_categories": 7,
+            "total_architecture_records": 30,
+            "missing_or_empty_field_instances": 0,
+            "exact_duplicate_records": 0,
+            "internal_components_identified": 3,
+            "external_entities_documented": 1,
+            "component_references_checked": 12,
+            "internal_component_references": 10,
+            "known_external_references": 2,
+            "unclassified_references": 0,
+            "external_entity_assumption": "CoolingSystem is treated as an external entity for this synthetic demonstration and should be verified against the source HLD."
+        },
+        "architecture_consistency": {
+            "document": "sample_autosar_hld.pdf",
+            "internal_component_count": 3,
+            "external_entity_count": 1,
+            "dependency_record_count": 3,
+            "architecture_relationship_count": 3,
+            "data_flow_record_count": 5,
+            "component_references_checked": 12,
+            "internal_component_references": 10,
+            "known_external_references": 2,
+            "unclassified_references": 0,
+            "unresolved_references_after_classification": 0,
+            "note": "Reference classification is based on the documented internal component and external entity inventories. This is a preliminary consistency analysis, not a complete AUTOSAR compliance check."
+        },
+        "component_evaluation": {
+            "document": "sample_autosar_hld.pdf",
+            "evaluation_scope": "Component name extraction",
+            "ground_truth_component_count": 3,
+            "extracted_component_count": 3,
+            "true_positives": 3,
+            "false_positives": 0,
+            "false_negatives": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "ground_truth_status": "Requires verification against the source HLD"
+        },
+        "dependency_evaluation": {
+            "document": "sample_autosar_hld.pdf",
+            "evaluation_scope": "Dependency relationship extraction",
+            "expected_unique_dependencies": 3,
+            "extracted_unique_dependencies": 3,
+            "true_positives": 3,
+            "false_positives": 0,
+            "false_negatives": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "ground_truth_status": "Requires independent verification against the source HLD"
+        },
+        "interface_port_evaluation": {
+            "document": "sample_autosar_hld.pdf",
+            "interface_records": 3,
+            "expected_interface_names": 3,
+            "extracted_interface_names": 3,
+            "interface_true_positives": 3,
+            "interface_false_positives": 0,
+            "interface_false_negatives": 0,
+            "interface_precision": 1.0,
+            "interface_recall": 1.0,
+            "interface_f1_score": 1.0,
+            "port_records": 7,
+            "ports_missing_names": 0,
+            "ports_missing_components": 0,
+            "ports_missing_directions": 0,
+            "port_component_classifications": {
+                "Valid internal component": 7
+            },
+            "ground_truth_status": "Interface names require verification against the source HLD; port completeness is a structural check, not port extraction accuracy."
+        }
+    },
+    "flow_completeness": {
+        "functional_flow_records": 6,
+        "functional_flow_records_checked": 6,
+        "data_flow_records": 5,
+        "data_flow_records_checked": 5
+    }
+}

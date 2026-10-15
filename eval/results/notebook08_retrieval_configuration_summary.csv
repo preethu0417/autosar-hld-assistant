@@ -1,0 +1,13 @@
+method,top_k,mean_coverage,mean_result_count,mean_coverage_percent
+hybrid,1,0.9,1.0,90.0
+hybrid,3,1.0,3.0,100.0
+hybrid,5,1.0,5.0,100.0
+hybrid,10,1.0,10.0,100.0
+semantic,1,0.7,1.0,70.0
+semantic,3,1.0,3.0,100.0
+semantic,5,1.0,5.0,100.0
+semantic,10,1.0,10.0,100.0
+structured,1,0.5,0.6,50.0
+structured,3,0.6,1.4,60.0
+structured,5,0.6,1.6,60.0
+structured,10,0.6,1.6,60.0

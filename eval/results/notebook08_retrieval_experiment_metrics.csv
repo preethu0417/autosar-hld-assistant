@@ -1,0 +1,61 @@
+query_id,query,method,top_k,result_count,expected_term_count,matched_term_count,expected_term_coverage
+Q01,Which component consumes BatteryTemperature?,semantic,1,1,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,semantic,3,3,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,semantic,5,5,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,semantic,10,10,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,structured,1,1,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,structured,3,2,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,structured,5,2,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,structured,10,2,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,hybrid,1,1,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,hybrid,3,3,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,hybrid,5,5,2,2,1.0
+Q01,Which component consumes BatteryTemperature?,hybrid,10,10,2,2,1.0
+Q02,Which components depend on BatteryMonitor?,semantic,1,1,2,1,0.5
+Q02,Which components depend on BatteryMonitor?,semantic,3,3,2,2,1.0
+Q02,Which components depend on BatteryMonitor?,semantic,5,5,2,2,1.0
+Q02,Which components depend on BatteryMonitor?,semantic,10,10,2,2,1.0
+Q02,Which components depend on BatteryMonitor?,structured,1,1,2,1,0.5
+Q02,Which components depend on BatteryMonitor?,structured,3,2,2,2,1.0
+Q02,Which components depend on BatteryMonitor?,structured,5,2,2,2,1.0
+Q02,Which components depend on BatteryMonitor?,structured,10,2,2,2,1.0
+Q02,Which components depend on BatteryMonitor?,hybrid,1,1,2,1,0.5
+Q02,Which components depend on BatteryMonitor?,hybrid,3,3,2,2,1.0
+Q02,Which components depend on BatteryMonitor?,hybrid,5,5,2,2,1.0
+Q02,Which components depend on BatteryMonitor?,hybrid,10,10,2,2,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,semantic,1,1,1,0,0.0
+Q03,What interface connects BatteryMonitor and Dashboard?,semantic,3,3,1,1,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,semantic,5,5,1,1,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,semantic,10,10,1,1,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,structured,1,1,1,1,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,structured,3,3,1,1,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,structured,5,4,1,1,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,structured,10,4,1,1,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,hybrid,1,1,1,1,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,hybrid,3,3,1,1,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,hybrid,5,5,1,1,1.0
+Q03,What interface connects BatteryMonitor and Dashboard?,hybrid,10,10,1,1,1.0
+Q04,Which component provides BatteryStatus?,semantic,1,1,1,1,1.0
+Q04,Which component provides BatteryStatus?,semantic,3,3,1,1,1.0
+Q04,Which component provides BatteryStatus?,semantic,5,5,1,1,1.0
+Q04,Which component provides BatteryStatus?,semantic,10,10,1,1,1.0
+Q04,Which component provides BatteryStatus?,structured,1,0,1,0,0.0
+Q04,Which component provides BatteryStatus?,structured,3,0,1,0,0.0
+Q04,Which component provides BatteryStatus?,structured,5,0,1,0,0.0
+Q04,Which component provides BatteryStatus?,structured,10,0,1,0,0.0
+Q04,Which component provides BatteryStatus?,hybrid,1,1,1,1,1.0
+Q04,Which component provides BatteryStatus?,hybrid,3,3,1,1,1.0
+Q04,Which component provides BatteryStatus?,hybrid,5,5,1,1,1.0
+Q04,Which component provides BatteryStatus?,hybrid,10,10,1,1,1.0
+Q05,How does the cooling request flow through the architecture?,semantic,1,1,2,2,1.0
+Q05,How does the cooling request flow through the architecture?,semantic,3,3,2,2,1.0
+Q05,How does the cooling request flow through the architecture?,semantic,5,5,2,2,1.0
+Q05,How does the cooling request flow through the architecture?,semantic,10,10,2,2,1.0
+Q05,How does the cooling request flow through the architecture?,structured,1,0,2,0,0.0
+Q05,How does the cooling request flow through the architecture?,structured,3,0,2,0,0.0
+Q05,How does the cooling request flow through the architecture?,structured,5,0,2,0,0.0
+Q05,How does the cooling request flow through the architecture?,structured,10,0,2,0,0.0
+Q05,How does the cooling request flow through the architecture?,hybrid,1,1,2,2,1.0
+Q05,How does the cooling request flow through the architecture?,hybrid,3,3,2,2,1.0
+Q05,How does the cooling request flow through the architecture?,hybrid,5,5,2,2,1.0
+Q05,How does the cooling request flow through the architecture?,hybrid,10,10,2,2,1.0

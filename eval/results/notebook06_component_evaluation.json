@@ -1,0 +1,13 @@
+{
+    "document": "sample_autosar_hld.pdf",
+    "evaluation_scope": "Component name extraction",
+    "ground_truth_component_count": 3,
+    "extracted_component_count": 3,
+    "true_positives": 3,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "ground_truth_status": "Requires verification against the source HLD"
+}

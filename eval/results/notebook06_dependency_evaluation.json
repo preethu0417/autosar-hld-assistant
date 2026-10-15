@@ -1,0 +1,13 @@
+{
+    "document": "sample_autosar_hld.pdf",
+    "evaluation_scope": "Dependency relationship extraction",
+    "expected_unique_dependencies": 3,
+    "extracted_unique_dependencies": 3,
+    "true_positives": 3,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "ground_truth_status": "Requires independent verification against the source HLD"
+}

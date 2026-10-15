@@ -1,0 +1,8 @@
+Entity Type,Record Count,Percentage
+components,3,10.0
+ports,7,23.33
+interfaces,3,10.0
+data_flows,5,16.67
+functional_flows,6,20.0
+dependencies,3,10.0
+architecture_relationships,3,10.0

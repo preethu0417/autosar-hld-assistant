@@ -1,0 +1,56 @@
+{
+    "notebook": "08_feature_engineering_retrieval_optimization",
+    "rag_document_count": 23,
+    "candidate_query_count": 5,
+    "candidate_queries": [
+        {
+            "query_id": "Q01",
+            "query": "Which component consumes BatteryTemperature?",
+            "expected_terms": [
+                "ThermalController",
+                "BatteryTemperature"
+            ]
+        },
+        {
+            "query_id": "Q02",
+            "query": "Which components depend on BatteryMonitor?",
+            "expected_terms": [
+                "ThermalController",
+                "Dashboard"
+            ]
+        },
+        {
+            "query_id": "Q03",
+            "query": "What interface connects BatteryMonitor and Dashboard?",
+            "expected_terms": [
+                "BatteryStatusInterface"
+            ]
+        },
+        {
+            "query_id": "Q04",
+            "query": "Which component provides BatteryStatus?",
+            "expected_terms": [
+                "BatteryStatus"
+            ]
+        },
+        {
+            "query_id": "Q05",
+            "query": "How does the cooling request flow through the architecture?",
+            "expected_terms": [
+                "CoolingRequest",
+                "ThermalController"
+            ]
+        }
+    ],
+    "planned_methods": [
+        "semantic search",
+        "structured search",
+        "hybrid search"
+    ],
+    "status": "Configuration prepared; retrieval comparison pending",
+    "limitations": [
+        "Expected terms need independent relevance verification.",
+        "Search method signatures and return formats must be checked.",
+        "No performance improvement is claimed at this stage."
+    ]
+}

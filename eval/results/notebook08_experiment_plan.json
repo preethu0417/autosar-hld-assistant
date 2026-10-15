@@ -1,0 +1,20 @@
+{
+    "notebook": "08_feature_engineering_retrieval_optimization",
+    "baseline_metrics_file": "c:\\Users\\preet\\OneDrive\\Desktop\\autosar_hld_assistant\\eval\\results\\notebook04_retrieval_evaluation.json",
+    "engineered_features_file": "c:\\Users\\preet\\OneDrive\\Desktop\\autosar_hld_assistant\\eval\\results\\notebook08_engineered_features.csv",
+    "dataset_records": 30,
+    "experiment_candidates": [
+        "Existing retrieval baseline",
+        "Searchable text with entity type",
+        "Searchable text with architecture metadata",
+        "Top-k comparison"
+    ],
+    "evaluation_metrics": [
+        "Precision",
+        "Recall",
+        "F1-score",
+        "Citation coverage"
+    ],
+    "status": "Design prepared; experiments not yet run",
+    "caution": "Use identical evaluation questions and verified relevance labels for fair comparisons."
+}

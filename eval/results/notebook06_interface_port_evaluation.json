@@ -1,0 +1,20 @@
+{
+    "document": "sample_autosar_hld.pdf",
+    "interface_records": 3,
+    "expected_interface_names": 3,
+    "extracted_interface_names": 3,
+    "interface_true_positives": 3,
+    "interface_false_positives": 0,
+    "interface_false_negatives": 0,
+    "interface_precision": 1.0,
+    "interface_recall": 1.0,
+    "interface_f1_score": 1.0,
+    "port_records": 7,
+    "ports_missing_names": 0,
+    "ports_missing_components": 0,
+    "ports_missing_directions": 0,
+    "port_component_classifications": {
+        "Valid internal component": 7
+    },
+    "ground_truth_status": "Interface names require verification against the source HLD; port completeness is a structural check, not port extraction accuracy."
+}

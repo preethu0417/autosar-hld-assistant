@@ -1,0 +1,31 @@
+{
+    "notebook": "07_retrieval_experiments",
+    "baseline_source": "Notebook 04 existing evaluation",
+    "evaluation_questions": 5,
+    "query_types_tested": 4,
+    "top_k_tested": [
+        1,
+        3,
+        5,
+        10
+    ],
+    "aggregate_metrics": {
+        "retrieval_accuracy": 100.0,
+        "mean_precision": 92.0,
+        "mean_recall": 100.0,
+        "mean_f1": 95.56,
+        "citation_coverage": 100.0,
+        "unsupported_query_handled": true
+    },
+    "query_level_records": 5,
+    "per_query_metrics_rows": 5,
+    "per_query_top_k_values": [
+        5
+    ],
+    "limitations": [
+        "The baseline uses a small evaluation set.",
+        "The existing per-query CSV contains five rows at top_k=5.",
+        "Aggregate top-k values do not provide per-query metrics at every k.",
+        "No retrieval configuration has been changed in this notebook yet."
+    ]
+}

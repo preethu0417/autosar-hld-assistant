@@ -1,0 +1,17 @@
+{
+    "notebook": "08_feature_engineering_retrieval_optimization",
+    "status": "Feature engineering completed; retrieval experiments pending",
+    "dataset_records": 30,
+    "entity_types": 7,
+    "records_with_search_text": 30,
+    "records_without_search_text": 0,
+    "mean_search_text_length": 261.07,
+    "artifacts": [
+        "notebook08_initial_dataset_profile.json",
+        "notebook08_metadata_completeness.csv",
+        "notebook08_engineered_features.csv",
+        "notebook08_feature_summary.json",
+        "notebook08_search_text_lengths.png",
+        "notebook08_experiment_plan.json"
+    ]
+}

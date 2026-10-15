@@ -1,0 +1,14 @@
+{
+    "document": "sample_autosar_hld.pdf",
+    "architecture_categories": 7,
+    "total_architecture_records": 30,
+    "missing_or_empty_field_instances": 0,
+    "exact_duplicate_records": 0,
+    "internal_components_identified": 3,
+    "external_entities_documented": 1,
+    "component_references_checked": 12,
+    "internal_component_references": 10,
+    "known_external_references": 2,
+    "unclassified_references": 0,
+    "external_entity_assumption": "CoolingSystem is treated as an external entity for this synthetic demonstration and should be verified against the source HLD."
+}

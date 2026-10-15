@@ -1,0 +1,11 @@
+{
+    "document": "sample_autosar_hld.pdf",
+    "page_count": 5,
+    "total_architecture_records": 30,
+    "entity_categories": 7,
+    "pages_with_text": 5,
+    "average_characters_per_page": 941.8,
+    "minimum_characters_per_page": 829,
+    "maximum_characters_per_page": 1177,
+    "pages_flagged_for_ocr_review": 0
+}

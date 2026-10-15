@@ -1,0 +1,6 @@
+query_id,query,term_document_counts,all_terms_found
+Q01,Which component consumes BatteryTemperature?,"{""ThermalController"": 11, ""BatteryTemperature"": 6}",True
+Q02,Which components depend on BatteryMonitor?,"{""ThermalController"": 11, ""Dashboard"": 7}",True
+Q03,What interface connects BatteryMonitor and Dashboard?,"{""BatteryStatusInterface"": 2}",True
+Q04,Which component provides BatteryStatus?,"{""BatteryStatus"": 7}",True
+Q05,How does the cooling request flow through the architecture?,"{""CoolingRequest"": 5, ""ThermalController"": 11}",True

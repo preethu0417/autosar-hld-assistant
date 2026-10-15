@@ -1,0 +1,14 @@
+{
+    "document": "sample_autosar_hld.pdf",
+    "internal_component_count": 3,
+    "external_entity_count": 1,
+    "dependency_record_count": 3,
+    "architecture_relationship_count": 3,
+    "data_flow_record_count": 5,
+    "component_references_checked": 12,
+    "internal_component_references": 10,
+    "known_external_references": 2,
+    "unclassified_references": 0,
+    "unresolved_references_after_classification": 0,
+    "note": "Reference classification is based on the documented internal component and external entity inventories. This is a preliminary consistency analysis, not a complete AUTOSAR compliance check."
+}

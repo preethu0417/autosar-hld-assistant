@@ -1,0 +1,93 @@
+{
+    "notebook": "07_retrieval_experiments",
+    "retriever_file": "c:\\Users\\preet\\OneDrive\\Desktop\\autosar_hld_assistant\\src\\retrieval\\retriever.py",
+    "embedder_file": "c:\\Users\\preet\\OneDrive\\Desktop\\autosar_hld_assistant\\src\\embeddings\\embedder.py",
+    "notebook04_file": "c:\\Users\\preet\\OneDrive\\Desktop\\autosar_hld_assistant\\notebooks\\04_retrieval_eval_prompts.ipynb",
+    "retriever_api": [
+        {
+            "type": "ClassDef",
+            "name": "ArchitectureRetriever",
+            "line": 13
+        },
+        {
+            "type": "FunctionDef",
+            "name": "__init__",
+            "line": 24
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_normalize_chunk",
+            "line": 40
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_normalize_chunks",
+            "line": 236
+        },
+        {
+            "type": "FunctionDef",
+            "name": "build_index",
+            "line": 254
+        },
+        {
+            "type": "FunctionDef",
+            "name": "search",
+            "line": 303
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_detect_intent",
+            "line": 383
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_query_entities",
+            "line": 448
+        },
+        {
+            "type": "FunctionDef",
+            "name": "structured_search",
+            "line": 523
+        },
+        {
+            "type": "FunctionDef",
+            "name": "hybrid_search",
+            "line": 916
+        },
+        {
+            "type": "FunctionDef",
+            "name": "save_index",
+            "line": 993
+        },
+        {
+            "type": "FunctionDef",
+            "name": "load_index",
+            "line": 1048
+        }
+    ],
+    "embedder_api": [
+        {
+            "type": "ClassDef",
+            "name": "ArchitectureEmbedder",
+            "line": 9
+        },
+        {
+            "type": "FunctionDef",
+            "name": "__init__",
+            "line": 15
+        },
+        {
+            "type": "FunctionDef",
+            "name": "embed_chunks",
+            "line": 25
+        },
+        {
+            "type": "FunctionDef",
+            "name": "save_embeddings",
+            "line": 41
+        }
+    ],
+    "retriever_source_lines": 1130,
+    "embedder_source_lines": 86,
+    "notebook04_exists": true
+}

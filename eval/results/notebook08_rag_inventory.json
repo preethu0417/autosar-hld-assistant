@@ -1,0 +1,21 @@
+{
+    "notebook": "08_feature_engineering_retrieval_optimization",
+    "rag_documents_path": "c:\\Users\\preet\\OneDrive\\Desktop\\autosar_hld_assistant\\outputs\\rag_index\\rag_documents.json",
+    "root_type": "list",
+    "document_count": 23,
+    "sample_record_keys": [
+        "id",
+        "type",
+        "text",
+        "source",
+        "page",
+        "section",
+        "metadata"
+    ],
+    "retrieval_methods_found": [
+        "search",
+        "structured_search",
+        "hybrid_search"
+    ],
+    "status": "RAG inventory inspected; controlled experiments pending"
+}

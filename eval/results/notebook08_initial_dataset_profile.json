@@ -1,0 +1,149 @@
+{
+    "notebook": "08_feature_engineering_retrieval_optimization",
+    "document_metadata": "sample_autosar_hld.pdf",
+    "entity_counts": {
+        "components": 3,
+        "ports": 7,
+        "interfaces": 3,
+        "data_flows": 5,
+        "functional_flows": 6,
+        "dependencies": 3,
+        "architecture_relationships": 3
+    },
+    "total_entity_records": 30,
+    "component_fields": [
+        "name",
+        "type",
+        "document",
+        "page",
+        "section_number",
+        "section_title",
+        "role",
+        "inputs",
+        "outputs"
+    ],
+    "chunker_methods": [
+        {
+            "type": "ClassDef",
+            "name": "ArchitectureChunker",
+            "line": 7
+        },
+        {
+            "type": "FunctionDef",
+            "name": "__init__",
+            "line": 14
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_create_chunk",
+            "line": 17
+        },
+        {
+            "type": "FunctionDef",
+            "name": "create_chunks",
+            "line": 39
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_chunk_components",
+            "line": 57
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_chunk_ports",
+            "line": 79
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_chunk_interfaces",
+            "line": 98
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_chunk_data_flows",
+            "line": 133
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_chunk_dependencies",
+            "line": 157
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_chunk_functional_flows",
+            "line": 181
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_chunk_relationships",
+            "line": 208
+        },
+        {
+            "type": "FunctionDef",
+            "name": "save",
+            "line": 236
+        }
+    ],
+    "retriever_methods": [
+        {
+            "type": "ClassDef",
+            "name": "ArchitectureRetriever",
+            "line": 13
+        },
+        {
+            "type": "FunctionDef",
+            "name": "__init__",
+            "line": 24
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_normalize_chunk",
+            "line": 40
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_normalize_chunks",
+            "line": 236
+        },
+        {
+            "type": "FunctionDef",
+            "name": "build_index",
+            "line": 254
+        },
+        {
+            "type": "FunctionDef",
+            "name": "search",
+            "line": 303
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_detect_intent",
+            "line": 383
+        },
+        {
+            "type": "FunctionDef",
+            "name": "_query_entities",
+            "line": 448
+        },
+        {
+            "type": "FunctionDef",
+            "name": "structured_search",
+            "line": 523
+        },
+        {
+            "type": "FunctionDef",
+            "name": "hybrid_search",
+            "line": 916
+        },
+        {
+            "type": "FunctionDef",
+            "name": "save_index",
+            "line": 993
+        },
+        {
+            "type": "FunctionDef",
+            "name": "load_index",
+            "line": 1048
+        }
+    ]
+}
